@@ -8,6 +8,10 @@
     --highlight-color: #D5B895; 
 }
 
+body{
+    background-color: bisque;
+}
+
 nav{
     background-color: #D1B280;
 }
@@ -30,6 +34,18 @@ a.nav-link{
     color: rgb(0, 0, 0);
 }
 
+/*Header*/
+
+div.modal-body,
+div.modal-header{
+ background-color:rgb(211, 164, 108) ;
+}
+
+div.modal-header{
+    padding: 0 10px;
+}
+
+
 h1,
 h2,
 h3 {
@@ -47,7 +63,7 @@ h2 {
 }
 
 .img{
-    background: url("/assets/img/Beige\ Brown\ Creative\ Circle\ Coffe\ Shop\ Logo.png") no-repeat center center/cover;
+    background: url("/assets/img/Beige_Brown_Creative_Circle_Coffe_Shop_Logo-removebg-preview.png") no-repeat center center/cover;
     width: 400px;
     height: 270px;
     margin: auto;
@@ -76,6 +92,21 @@ main img{
     div.img{
         width: 70%;
     }
+
+    #About p{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+@media screen and (min-width:768px) ,(max-width:1200px) 
+{
+    #header button{
+        margin: 20px 0;
+    }    
 }
 
 @media screen and (max-width: 1400px) {
@@ -85,4 +116,11 @@ main img{
         margin-bottom: 30px;
     }
 
+}
+
+@media screen and (min-width: 1400px){
+
+    #About p{
+        padding-left: 65px;
+    }
 }
