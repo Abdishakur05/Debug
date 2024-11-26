@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-font: "Dancing Script", sans-serif;
+    --secondary-font: "Playfair Display", cursive;
+    --primary-color: #3E2723; 
+    --secondary-color: #4B382A; 
+    --highlight-color: #D5B895; 
+}
+
+nav{
+    background-color: #D1B280;
+}
+
+a.navbar-brand{
+    font-family: var(--primary-font); 
+    font-size: 180%;
+}
+
+a.nav-link{
+    color: #4B382A;
+    font-family: var(--primary-font);
+    font-size: 140%;
+}
+
+.custom-button-filled {
+    border: 2px solid var(--primary-color);
+    background-color: #D1B280;
+    font-family: var(--primary-font);
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.img{
+    background: url("/assets/img/Beige\ Brown\ Creative\ Circle\ Coffe\ Shop\ Logo.png") no-repeat center center/cover;
+    width: 400px;
+    height: 270px;
+    margin: auto;
+}
+
+header{
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
