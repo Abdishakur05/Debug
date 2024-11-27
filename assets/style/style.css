@@ -163,6 +163,9 @@ div.card{
 }
 
 /*Gallery*/
+#Gallery{
+    margin-bottom: 100px;
+}
 #Gallery img{
     border-radius: 20px;
 }
@@ -170,7 +173,8 @@ div.card{
 /*Reviews*/
 
 #reviews div.col{
-    border: 1px black;
+    border: 2px solid #c8a165;
+    background-color: #e7d788;
     border-radius: 20px;
     width: 400px;
     height: 300px;
@@ -199,7 +203,9 @@ div.card{
         margin: auto;
     }
 
-    
+    #reviews div.col{
+        margin: auto;
+    }
     
    
 }
@@ -218,7 +224,11 @@ div.card{
         margin-bottom: 100px;
     }
     
-  
+    #reviews div.col{
+        margin: auto;
+        
+    }
+   
 }
 
 
