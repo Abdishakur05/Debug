@@ -43,6 +43,11 @@ Language used
 5. Github - GitHub is used to store the projects code after being pushed from Git.
 6. Balsamiq - Used to create wireframes
 
+## Testing
+Every page of the project was validated using the W3C Markup Validator and W3C CSS Validator Services to make sure there were no syntax issues.
+* W3C Markup Validators
+* W3C CSS Validators
+
   # Testing User Stories from User Experience (UX) Section
 
   ## First Time Visitor Goals
