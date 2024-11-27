@@ -13,4 +13,5 @@ As a first time visitor, i'd like to
 * Highlight special offers or loyalty program updates
 * Able to locate socials links and contact info to be able to contact them
 
+#Design
 
