@@ -1,6 +1,6 @@
-#User Experience (UX)
+# User Experience (UX)
 
-##First Time Visitor Goals
+## First Time Visitor Goals
 As a first time visitor, i'd like to
 * Be able to easily navigate through the website
 * Understand the main purpose of the website
@@ -13,5 +13,5 @@ As a first time visitor, i'd like to
 * Highlight special offers or loyalty program updates
 * Able to locate socials links and contact info to be able to contact them
 
-#Design
+# Design
 
