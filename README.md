@@ -36,12 +36,12 @@ Language used
 * Css
 
 ## Frameworks, Libraries & Programs Used
-* Bootstrap 5.3.3
-* Google Font
-* Font awesome
-* Git
-* Github
-* Balsamiq
+1. Bootstrap 5.3.3 - used to import prebuilt designs for my websites which saves time and helps with responsitivity
+2. Google Font - Used to import both of the styles 'Dancing Script' and 'Playfair Display' into the styles.css and used throught the website
+3. Font awesome - Used to import icons on the website like for social links.
+4. Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+5. Github - GitHub is used to store the projects code after being pushed from Git.
+6. Balsamiq - Used to create wireframes
 
   # Testing User Stories from User Experience (UX) Section
 
