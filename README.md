@@ -18,3 +18,11 @@ As a first time visitor, i'd like to
 ### Colour Scheme
 * Bisque
 * Brown
+
+### Typography
+* Dancing Script
+* Playfair Display
+
+## Wireframes
+
+## Features
