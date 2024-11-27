@@ -29,3 +29,17 @@ As a first time visitor, i'd like to
 * Responsitivity on all devices
 * Navigation bar
 * Newsletter
+
+
+## Languages Used
+Language used
+* Html
+* Css
+
+## Frameworks, Libraries & Programs Used
+* Bootstrap 5.3.3
+* Google Font
+* Font awesome
+* Git
+* Github
+* Balsamiq 
