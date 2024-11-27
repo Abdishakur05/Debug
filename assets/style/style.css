@@ -198,8 +198,13 @@ div.card{
         margin-bottom: 100px;
     }
     
-    
-    
+  
+}
+
+#About p{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -209,6 +214,14 @@ div.card{
        
         margin-bottom: 30px;
     }
+
+    
+#About p{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 
 }
 
