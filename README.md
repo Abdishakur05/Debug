@@ -15,3 +15,6 @@ As a first time visitor, i'd like to
 
 ## Design
 
+### Colour Scheme
+* Bisque
+* Brown
