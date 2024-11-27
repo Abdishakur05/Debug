@@ -48,13 +48,15 @@ div.modal-header{
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
 
 h1,
-h2 {
+h2,
+h5 {
     text-transform: uppercase;
 }
 
@@ -77,9 +79,29 @@ header{
 
 /*Main*/
 
+/*About*/
 main img{
     display: flex;
     margin: auto;
+}
+
+/*Menu*/
+#Menu{
+    margin-bottom: 100px;
+}
+
+div.card{
+    min-height: 424px;
+}
+
+#Menu div.card:hover{
+    background-color: bisque;
+    
+    cursor: pointer;
+}
+
+#About{
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 768px) 
@@ -99,6 +121,9 @@ main img{
         margin-bottom: 20px;
     }
 
+    div.card{
+        margin: auto;
+    }
    
 }
 
@@ -108,6 +133,7 @@ main img{
         margin: 20px 0;
     }    
 }
+
 
 @media screen and (max-width: 1400px) {
 
