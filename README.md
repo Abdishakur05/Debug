@@ -26,3 +26,6 @@ As a first time visitor, i'd like to
 ## Wireframes
 
 ## Features
+* Responsitivity on all devices
+* Navigation bar
+* Newsletter
