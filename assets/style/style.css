@@ -45,6 +45,11 @@ div.modal-header{
     padding: 0 10px;
 }
 
+#exampleInputEmail1.form-control,
+#exampleInputFullname1.form-control{
+    background-color:rgb(230, 175, 113) ;
+    border: 1px solid rgb(0, 0, 0) ;
+}
 
 h1,
 h2,
@@ -95,7 +100,9 @@ main img{
     margin-bottom: 200px;
 }
 
- .card:hover {
+ .card:hover,
+ #Gallery img:hover,
+ #reviews div.col:hover {
         transform: scale(1.05);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
         }
@@ -143,19 +150,32 @@ div.card{
 
 
 
-/*Banner*/
 
-.banner{
-    background: url("/assets/img/Capture.PNG") no-repeat center center/cover;
-    width: 100%;
-    height: 600px;
-    margin-bottom: 100px;
-}
+
 
 /*Product*/
+#Product{
+    margin-bottom: 100px;
+}
 #Product div.card button{
     margin-top: 20px;
     
+}
+
+/*Gallery*/
+#Gallery img{
+    border-radius: 20px;
+}
+
+/*Reviews*/
+
+#reviews div.col{
+    border: 1px black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin-right: 25px;
+   
 }
 
 @media screen and (max-width: 768px) 
@@ -171,7 +191,7 @@ div.card{
 
     #About p{
         text-align: center;
-        margin: auto;
+        
         margin-bottom: 20px;
     }
 
@@ -201,11 +221,6 @@ div.card{
   
 }
 
-#About p{
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-}
 
 
 @media screen and (max-width: 1400px) {
