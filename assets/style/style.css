@@ -97,7 +97,7 @@ main img{
 /*Menu*/
 
 #Menu{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
  .card:hover,
@@ -186,7 +186,7 @@ div.card{
     font-size:400%;
     color: black;
     padding-left: 10px;
-    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 /*Footer*/
@@ -238,11 +238,11 @@ th{
         margin: auto;
     }
     
-    
+  
    
 }
 
-@media screen and (min-width:768px) ,(max-width:1199px) 
+@media screen and (min-width: 768px) and (max-width: 1199px) 
 {
     #header button{
         margin: 20px 0;
@@ -260,7 +260,12 @@ th{
         margin: auto;
         
     }
+
    
+   
+    .pointer i{
+        display: none;
+    }
 }
 
 
