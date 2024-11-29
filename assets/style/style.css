@@ -91,7 +91,7 @@ main img{
 }
 
 #About{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 /*Menu*/
@@ -168,6 +168,8 @@ div.card{
 }
 #Gallery img{
     border-radius: 20px;
+    height: 330px;
+    width: 400px;
 }
 
 /*Reviews*/
@@ -211,6 +213,11 @@ th{
     border: 1px solid white;
 }
 
+/*Sucess*/
+#success{
+       
+    margin: auto;
+}
 
 @media screen and (max-width: 768px) 
 {
@@ -237,10 +244,14 @@ th{
         margin: auto;
     }
     
-    .pointer i{
-        display: none;
+    #Gallery img{
+        width: 300px;
+        height: 230px;
+        margin: 0;
+        margin: auto;
     }
-   
+    
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) 
@@ -262,8 +273,7 @@ th{
         
     }
 
-   
-   
+    
     
 }
 
@@ -276,6 +286,9 @@ th{
         margin-bottom: 30px;
     }
 
+    #submitbtn{
+        padding-bottom: 50px;
+    }
     
 #About p{
     text-align: center;
