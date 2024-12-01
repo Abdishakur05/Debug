@@ -1,104 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --primary-font: "Dancing Script", sans-serif;
-    --secondary-font: "Playfair Display", cursive;
-    --primary-color: #3E2723; 
-    --secondary-color: #D1B280; 
+    --primary-font: "Dancing Script", sans-serif; /*Main font for title and headers*/
+    --secondary-font: "Playfair Display", cursive; /*second font for text*/
+    --primary-color: #3E2723; /*Main color for title and headers*/
+    --secondary-color: #D1B280; /*second color for text*/
     --highlight-color: #D5B895; 
 }
 
 body{
-    background-color: bisque;
+    background-color: bisque;/*main background of website*/
 }
 
 /*Navigation*/
 nav{
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color);/*color of nav bard*/
 }
 
-a.navbar-brand{
-    font-family: var(--primary-font); 
-    font-size: 180%;
+a.navbar-brand{/*The Debug Lounge header*/
+    font-family: var(--primary-font); /*color of header*/
+    font-size: 180%;/*increased size by 180%*/
 }
 
 a.nav-link{
-    color: #4B382A;
+    color: #4B382A;/*color*/
     font-family: var(--primary-font);
-    font-size: 140%;
+    font-size: 140%;/*increased size by 140%*/
 }
 
-.custom-button-filled {
-    border: 2px solid var(--primary-color);
-    background-color: var(--secondary-color);
-    font-family: var(--primary-font);
-    color: rgb(0, 0, 0);
+.custom-button-filled {/*order button in nav*/
+    border: 2px solid var(--primary-color);/*give border around button with primary color*/
+    background-color: var(--secondary-color);/*background color*/
+    font-family: var(--primary-font);/*give font using primary font*/
+    color: rgb(0, 0, 0);/*color black*/
 }
 
 /*Header*/
 
+/*Modal*/
 div.modal-body,
 div.modal-header{
- background-color:rgb(211, 164, 108) ;
+ background-color:var(--secondary-color);/*gives the body and header of modal background color*/
 }
 
 div.modal-header{
-    padding: 0 10px;
+    padding-left:10px;/*moves header to the right*/
 }
 
-#exampleInputEmail1.form-control,
+#exampleInputEmail1.form-control,/*email and fullname text box*/
 #exampleInputFullname1.form-control{
-    background-color:rgb(230, 175, 113) ;
-    border: 1px solid rgb(0, 0, 0) ;
+    background-color:bisque;/*gives background color*/
+    border: 1px solid rgb(0, 0, 0);/*gives black border*/
 }
 
 h1,
 h2,
 h3,
 h5 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
+    font-family: var(--primary-font);/*gives all heading primary font*/
+    color: var(--primary-color);/*gives all heading primary color*/
 }
 
 h1,
 h2,
 h5 {
-    text-transform: uppercase;
+    text-transform: uppercase;/*heading text to uppercase*/
 }
 
 h2 {
     margin-bottom: 2rem;
 }
 
-.img{
+.img{/*logo img*/
     background: url("/assets/img/Beige_Brown_Creative_Circle_Coffe_Shop_Logo-removebg-preview.png") no-repeat center center/cover;
-    width: 400px;
-    height: 270px;
-    margin: auto;
+    width: 400px;/*Gives width of logo img of 400px*/
+    height: 270px;/*Gives height of logo img of 270px*/
+    margin: auto;/*centers img*/
 }
 
 header{
     
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 50px;/*creates space on top between nav*/
+    margin-bottom: 100px;/*creates space on bottom between about*/
 }
 
 /*Main*/
 
 /*About*/
-main img{
+main img{/*images in main element*/
     display: flex;
     margin: auto;
 }
 
 #About{
-    margin-bottom: 250px;
-    border: 1px solid #d3cbb8;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
+    margin-bottom: 250px;/*creates space between about and menu*/
+    border: 1px solid #d3cbb8;/*creates border  around menu*/
+    background-color: var(--secondary-color);/*background color*/
+    border-radius: 20px;/*Rounds the border*/
 }
 
 img#imgabout{
+    /*resize image inside about section*/
     width: 600px;
     height: 400px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -110,8 +112,8 @@ img#imgabout{
 
 #Menu{
     margin-bottom: 250px; /*Creates space between menu and products*/
-    border: 1px solid #d3cbb8;
-    background-color: var(--secondary-color);
+    border: 1px solid #d3cbb8;/*creates border  around menu*/
+    background-color: var(--secondary-color);/*background color*/
     border-radius: 10px; /*Rounds the border*/
 }
 
@@ -286,15 +288,15 @@ th{
     }
 
     #About{
-        margin-bottom: 50px;/*when screen is decreased space between About and Menu is shirnked from 100px to 50px*/
+        margin-bottom: 50px;/*when screen is decreased space between About and Menu is shirnked from 250px to 50px*/
     }
 
     #Menu{
-        margin-bottom: 50px;/*when screen is decreased space between Menu and Product is shirnked from 100px to 50px*/
+        margin-bottom: 50px;/*when screen is decreased space between Menu and Product is shirnked from 250px to 50px*/
     }
 
     #Product{
-        margin-bottom: 50px; /*when screen is decreased space between Product and Gallery is shirnked from 100px to 50px*/
+        margin-bottom: 50px; /*when screen is decreased space between Product and Gallery is shirnked from 250px to 50px*/
     }
 
     #Gallery{
@@ -347,21 +349,23 @@ th{
 /*When the screen is between 768px or 1199px*/
 @media screen and (min-width: 768px) and (max-width: 1199px) 
 {
-    #header button{
+    #header button{/*Gives subscribe to newsletter btn space between top and bottom*/
         margin: 20px 0;
     }  
     
     #About{
-        margin-bottom: 100px;
+        margin-bottom: 100px;/*when screen is decreased space between About and Menu is shirnked from 250px to 100px*/
     }
 
     #Menu{
-        margin-bottom: 100px;
+        margin-bottom: 100px;/*when screen is decreased space between Menu and Product is shirnked from 250px to 100px*/
     }
     
-   
+    #Product{
+        margin-bottom: 100px;/*when screen is decreased space between Product and Gallery is shirnked from 250px to 100px*/
+    }
 
-    #reviews div.card-body{
+    #reviews div.card-body{/*centers the review cards*/
         margin: auto;
     }
     
@@ -371,21 +375,21 @@ th{
 /*When the screen is <1400px*/
 @media screen and (max-width: 1400px) {
 
-    main img{
-       
-        margin-bottom: 30px;
+    main img{/*img in main element*/
+        
+        margin-bottom: 30px;/*creates spacing of 30px in the bottom*/
     }
 
-    #submitbtn{
-        padding-bottom: 70px;
-        
+    #submitbtn{/*submit button in orders page*/
+    padding-bottom: 70px;/*gives spacing to bottom of 70px*/
+            
     }
-    
-#About p{
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-}
+        
+    #About p{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 
 
 }
@@ -393,7 +397,7 @@ th{
 /*When the screen is >1400px*/
 @media screen and (min-width: 1400px){
 
-    #About p{
-        padding-left: 65px;
+    #About p{/*text in about me section aka questions and the answers*/
+        padding-left: 65px;/*increase the space between the img and the text by 65px*/
     }
 }
