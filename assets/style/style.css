@@ -194,23 +194,24 @@ div.card{
 /*Reviews*/
 #reviews{
     margin-bottom: 100px;
+    
 }
 
-#reviews div.col{
+#reviews div.card-body{
     border: 2px solid #c8a165;
     background-color: #e7d788;
     border-radius: 20px;
     width: 400px;
-    height: 300px;
+    height: 250px;
     margin-right: 25px;
     
 }
 
-.pointer i{
-    font-size:400%;
-    color: black;
-    padding: 50px 10px;
+#reviews p{
+    font-size: 110%;
 }
+
+
 
 
 
@@ -220,6 +221,7 @@ div.card{
     padding: 40px 20px;
     border: 1px solid #d3cbb8;
     border-radius: 10px;
+    margin-bottom: 100px;
   }
 
 
@@ -299,6 +301,7 @@ th{
 
     #reviews{
         margin-bottom: 50px; 
+        
     }
 
     #About p{
@@ -326,6 +329,10 @@ th{
     img#imgabout{
         width: 100%;
     }
+
+    #reviews div.card-body{
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) 
@@ -342,12 +349,11 @@ th{
         margin-bottom: 100px;
     }
     
-    #reviews div.col{
-        margin: auto;
-        
-    }
+   
 
-    
+    #reviews div.card-body{
+        margin: auto;
+    }
     
 }
 
