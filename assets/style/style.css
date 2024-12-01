@@ -4,7 +4,7 @@
     --primary-font: "Dancing Script", sans-serif;
     --secondary-font: "Playfair Display", cursive;
     --primary-color: #3E2723; 
-    --secondary-color: #4B382A; 
+    --secondary-color: #D1B280; 
     --highlight-color: #D5B895; 
 }
 
@@ -13,7 +13,7 @@ body{
 }
 
 nav{
-    background-color: #D1B280;
+    background-color: var(--secondary-color);
 }
 
 a.navbar-brand{
@@ -29,7 +29,7 @@ a.nav-link{
 
 .custom-button-filled {
     border: 2px solid var(--primary-color);
-    background-color: #D1B280;
+    background-color: var(--secondary-color);
     font-family: var(--primary-font);
     color: rgb(0, 0, 0);
 }
@@ -91,14 +91,28 @@ main img{
 }
 
 #About{
-    margin-bottom: 150px;
+    margin-bottom: 250px;
+    border: 1px solid #d3cbb8;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+
+img#imgabout{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 /*Menu*/
 
 #Menu{
-    margin-bottom: 150px;
-}
+    margin-bottom: 250px;
+   
+    border: 1px solid #d3cbb8;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    }
 
  .card:hover,
  #Gallery img:hover,
@@ -155,7 +169,12 @@ div.card{
 
 /*Product*/
 #Product{
-    margin-bottom: 100px;
+    margin-bottom: 250px;
+
+    border: 1px solid #d3cbb8;
+    background-color: var(--secondary-color);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 #Product div.card button{
     margin-top: 20px;
@@ -173,6 +192,9 @@ div.card{
 }
 
 /*Reviews*/
+#reviews{
+    margin-bottom: 100px;
+}
 
 #reviews div.col{
     border: 2px solid #c8a165;
@@ -181,7 +203,7 @@ div.card{
     width: 400px;
     height: 300px;
     margin-right: 25px;
-   
+    
 }
 
 .pointer i{
@@ -189,6 +211,18 @@ div.card{
     color: black;
     padding: 50px 10px;
 }
+
+
+
+/*Location*/
+#location {
+    background-color:var(--secondary-color);
+    padding: 40px 20px;
+    border: 1px solid #d3cbb8;
+    border-radius: 10px;
+  }
+
+
 
 /*Footer*/
 
@@ -213,11 +247,24 @@ th{
     border: 1px solid white;
 }
 
+/*Order*/
+#order{
+    margin-top: 30px;
+    border: 1px solid #d3cbb8;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+
+
 /*Sucess*/
 #success{
        
     margin: auto;
 }
+
+
+
 
 @media screen and (max-width: 768px) 
 {
@@ -230,10 +277,35 @@ th{
         width: 70%;
     }
 
+    #header{
+        margin-bottom: 50px;
+    }
+
+    #About{
+        margin-bottom: 50px;
+    }
+
+    #Menu{
+        margin-bottom: 50px;
+    }
+
+    #Product{
+        margin-bottom: 50px; 
+    }
+
+    #Gallery{
+        margin-bottom: 50px; 
+    }
+
+    #reviews{
+        margin-bottom: 50px; 
+    }
+
     #About p{
         text-align: center;
         
         margin-bottom: 20px;
+       
     }
 
     div.card{
@@ -251,7 +323,9 @@ th{
         margin: auto;
     }
     
-    
+    img#imgabout{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) 
@@ -287,7 +361,8 @@ th{
     }
 
     #submitbtn{
-        padding-bottom: 50px;
+        padding-bottom: 70px;
+        
     }
     
 #About p{
