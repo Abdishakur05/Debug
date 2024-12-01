@@ -68,7 +68,7 @@ h5 {
 }
 
 h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;/*gives h2 spacing in the bottom*/
 }
 
 .img{/*logo img*/
