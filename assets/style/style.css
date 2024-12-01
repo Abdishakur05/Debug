@@ -12,6 +12,7 @@ body{
     background-color: bisque;
 }
 
+/*Navigation*/
 nav{
     background-color: var(--secondary-color);
 }
@@ -106,109 +107,110 @@ img#imgabout{
 
 /*Menu*/
 
+
 #Menu{
-    margin-bottom: 250px;
-   
+    margin-bottom: 250px; /*Creates space between menu and products*/
     border: 1px solid #d3cbb8;
     background-color: var(--secondary-color);
-    border-radius: 10px;
-    }
+    border-radius: 10px; /*Rounds the border*/
+}
 
- .card:hover,
- #Gallery img:hover,
- #reviews div.col:hover {
-        transform: scale(1.05);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
+.card:hover,
+#Gallery img:hover,
+#reviews div.col:hover {
+    transform: scale(1.05);/*When each menu item, img in gallery and reviews are hovered it increases 1.05*/
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /*box shadow*/
+}
 
-  .card-img-top  {
-        border-radius: 10px 10px 0 0;
-        }
+.card-img-top {/*class given to each img card*/
+    border-radius: 10px;/*rounds img*/
+}
 
 div.card{
-    min-height: 424px;
+    min-height: 424px;/*lines up all the cards evenly*/
     border: 1px solid rgb(221, 193, 52);
-    }
+}
 
 .card-title {
-    font-weight: bold;
+    font-weight: bold;/*Makes the title bold */
     font-size: 1.5rem;
-    color: #5C4033; /* A warm coffee-like color */
-    }
+    color: #5C4033; /* Gives the title a coffee-like colour */
+}
   
-  .card-text 
-  {
+.card-text 
+{
     font-size: 1rem;
-    color: #6F4F4B; /* Coffee brown */
+    color: #6F4F4B; /*  Gives the text a Coffee brown colour */
     line-height: 1.5;
-  }
-  
- #Menu button 
- {
-    background-color: #5C4033; /* Same coffee-like color */
+}
+ 
+#Menu button{
+    background-color: #5C4033; /* Gives each menu button coffee-like colour */
     color: white;
     border-radius: 5px;
-    font-weight: bold;
-  }
+    font-weight: bold; /*Title bold*/
+ }
   
-  #Menu button:hover 
-  {
-    background-color: #3E2C2A; /* Darker brown shade */
-    cursor: pointer;
-  }
+#Menu button:hover {
+    background-color: #3E2C2A; /* Darker brown shade color when button is hovered */
+    cursor: pointer;/*mouse changes from arrow to pointer*/
+}
 
 
     
-
-    
-
-
-
-
-
 
 /*Product*/
-#Product{
-    margin-bottom: 250px;
 
-    border: 1px solid #d3cbb8;
-    background-color: var(--secondary-color);
+#Product{
+margin-bottom: 250px;/*Gives space between product and Gallery*/
+    background-color: var(--secondary-color);/*Background color*/
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 10px;/*rounds border*/
 }
+
+
 #Product div.card button{
-    margin-top: 20px;
+    margin-top: 20px;/*aligns the buttons of product*/
     
 }
 
+
 /*Gallery*/
+
 #Gallery{
-    margin-bottom: 100px;
+    margin-bottom: 100px;/*Gives space between gallery and reviews*/
 }
+
+
 #Gallery img{
-    border-radius: 20px;
-    height: 330px;
-    width: 400px;
+    border-radius: 20px; /*Rounds the corners of each image to 20px*/
+    height: 330px;/*Gives it a height of 330px*/
+    width: 400px;/*And a width of 400px*/
 }
+
 
 /*Reviews*/
 #reviews{
-    margin-bottom: 100px;
+    margin-bottom: 100px; /*Gives space between reviews and location*/
     
 }
+    
 
 #reviews div.card-body{
-    border: 2px solid #c8a165;
-    background-color: #e7d788;
-    border-radius: 20px;
-    width: 400px;
-    height: 250px;
-    margin-right: 25px;
+    border: 2px solid #c8a165; /*gives each review card a border*/
+    background-color: #e7d788;/*background color review*/
+    border-radius: 20px;/*rounds edge of review cards*/
+    width: 400px;/*Gives the review cards a width of 400px*/
+    height: 250px;/*Gives the review cards a height of 250px*/
+    margin-right: 25px;/*Spaces each card*/
     
 }
 
+
+
+
 #reviews p{
-    font-size: 110%;
+    font-size: 110%;/*Increases the text inside the reviews by 110%*/
 }
 
 
@@ -217,11 +219,11 @@ div.card{
 
 /*Location*/
 #location {
-    background-color:var(--secondary-color);
-    padding: 40px 20px;
-    border: 1px solid #d3cbb8;
-    border-radius: 10px;
-    margin-bottom: 100px;
+    background-color:var(--secondary-color);/*background color*/
+    padding: 40px 20px;/*creates padding around the Find Us text*/
+    border: 1px solid #d3cbb8;/*create border around the section*/
+    border-radius: 10px;/*corners edge by 10px*/
+    margin-bottom: 100px;/*creates space between location and footer*/
   }
 
 
@@ -229,78 +231,78 @@ div.card{
 /*Footer*/
 
 footer{
-    background-color: #D1B280;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+    background-color: var(--secondary-color);/*background color*/
+    padding: 0; /*allows footer to strecth out to the end of the screen*/
+    margin: 0;/*allows footer to strecth out to the end of the screen*/
+    width: 100%;/*allows footer to strecth out to the end of the screen*/
 }
 
-.social i {
-    font-size: 200%;
-    margin-right: 10px;
-    color: black;
+.social i { /*Font awesome socials links*/
+    font-size: 200%;/*increases the size of each icon by 200%*/
+    margin-right: 10px;/*allows space between the icons*/
+    color: black;/*gives the icons the color black*/
 }
 
-tr td{
-    border: 1px solid white;
+tr td{/*table*/
+    border: 1px solid white; /*gives each row a border*/
 }
 
 th{
-    border: 1px solid white;
+    border: 1px solid white; /*gives each column a border*/
 }
 
-/*Order*/
+/*Order page*/
 #order{
-    margin-top: 30px;
-    border: 1px solid #d3cbb8;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+    margin-top: 30px;/*creates space between the nav and the section*/
+    background-color: var(--secondary-color); /*Background color*/
+    border-radius: 10px;/*rounds the corner by 10px*/
 }
+    
 
 
 
-/*Sucess*/
+/*Sucess page*/
 #success{
-       
-    margin: auto;
+    margin: auto;/*spaces the section to the middle of the website*/
 }
+       
 
 
 
-
+/*When the screen is 768px or smaller*/
 @media screen and (max-width: 768px) 
 {
-    main img{
-        width:100%;
-        margin-bottom: 30px;
+    main img{/*all images inside main element*/
+        width:100%;/*gives width 100% which allows the image to look the same when screen is shrinked*/
+        margin-bottom: 30px;/*gives space*/
     }
 
     div.img{
-        width: 70%;
+        width: 70%;/*images inside all divs like menu and product*/
     }
 
     #header{
-        margin-bottom: 50px;
+        margin-bottom: 50px;/*when screen is decreased space between header and about is shirnked from 100px to 50px*/
     }
 
     #About{
-        margin-bottom: 50px;
+        margin-bottom: 50px;/*when screen is decreased space between About and Menu is shirnked from 100px to 50px*/
     }
 
     #Menu{
-        margin-bottom: 50px;
+        margin-bottom: 50px;/*when screen is decreased space between Menu and Product is shirnked from 100px to 50px*/
     }
 
     #Product{
-        margin-bottom: 50px; 
+        margin-bottom: 50px; /*when screen is decreased space between Product and Gallery is shirnked from 100px to 50px*/
     }
 
     #Gallery{
-        margin-bottom: 50px; 
+        margin-bottom: 50px; /*when screen is decreased space between Gallery and reviews is shirnked from 100px to 50px*/
     }
 
     #reviews{
-        margin-bottom: 50px; 
+        margin-bottom: 50px; /*when screen is decreased space between reviews and about is location from 100px to 50px*/
         
     }
 
@@ -312,14 +314,14 @@ th{
     }
 
     div.card{
-        margin: auto;
+        margin: auto;/*menu and product spaced in center when screen is shrinked*/
     }
 
     #reviews div.col{
-        margin: auto;
+        margin: auto; /*reviews spaced in center when screen is shrinked*/
     }
     
-    #Gallery img{
+    #Gallery img{/*images in the gallery are resized inorder to fit perfectly*/
         width: 300px;
         height: 230px;
         margin: 0;
@@ -330,11 +332,19 @@ th{
         width: 100%;
     }
 
-    #reviews div.card-body{
+    #reviews div.card-body{/*reviews are resized inorder to fit perfectly*/
+        width: 300px;
+        height: 230px;
+        margin: 0;
         margin: auto;
+    }
+
+    #location{/*allows map to fit perfectly when size is decreased*/
+        width:100%;
     }
 }
 
+/*When the screen is between 768px or 1199px*/
 @media screen and (min-width: 768px) and (max-width: 1199px) 
 {
     #header button{
@@ -358,7 +368,7 @@ th{
 }
 
 
-
+/*When the screen is <1400px*/
 @media screen and (max-width: 1400px) {
 
     main img{
@@ -380,6 +390,7 @@ th{
 
 }
 
+/*When the screen is >1400px*/
 @media screen and (min-width: 1400px){
 
     #About p{
