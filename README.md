@@ -26,6 +26,7 @@ As a first time visitor, i'd like to
 ### Home
 * Large-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
 * Medium-[Download Wireframe][Medium Screen](https://github.com/Abdishakur05/Debug/blob/83647ab4e33046150d29728f11e7cc9ead42f95d/mediumscreenhome.bmpr)
+* Small-[Download Wireframe](https://github.com/Abdishakur05/Debug/blob/53a754ee3b422a3ca84ee66b716a746708a4b41f/mobilescreenhome.bmpr)
 
 ### Order
 * Large-page-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/6e5ad1ca436f24caed80909b46ee9d9dac527b68/orderwire.bmpr)
