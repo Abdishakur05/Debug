@@ -23,8 +23,8 @@ As a first time visitor, i'd like to
 * Playfair Display
 
 ## Wireframes
-Home-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
-Order page-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/6e5ad1ca436f24caed80909b46ee9d9dac527b68/orderwire.bmpr)
+* Home-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
+* Order page-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/6e5ad1ca436f24caed80909b46ee9d9dac527b68/orderwire.bmpr)
 
 
 ## Features
