@@ -23,7 +23,8 @@ As a first time visitor, i'd like to
 * Playfair Display
 
 ## Wireframes
-home-[Download Wireframe](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
+Home-[Download Wireframe](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
+
 
 ## Features
 * Responsitivity on all devices
