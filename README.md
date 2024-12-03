@@ -61,7 +61,7 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
   ## First Time Visitor Goals
   As a First Time Visitor, I want to be able to easily be able to navigate throughout the site
   * Navigation bar is at the top of each page containing links which describe where in the page it will take you
-  * 
+    
 
   As a First Time Visitor, I want to understand the main purpose of the website
   * As the user enters the site the are able to view the about me section which lists the reasons of why the website was created
