@@ -79,3 +79,14 @@ As a Frequent User, I want announcments on updates on new new menu items
 As a Frequent User, I want to sign up to the Newsletter 
 * On top of the page under Main header their is a modal button which says "Subscribe to our Newsletter"
 * Users are told to enter name and email so they can be emailed any new updates on the website
+
+## Bugs
+* Images in the menu section were not resizing correctly on smaller screens
+* Iframe `width="100%"` caused display issues.
+* Accessibility issue with nested buttons.
+
+## Credit
+* Bootstrap 5.3.3: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* Chatgpt: Generated My Gallery images
+* Canva: Created Logo
+   
