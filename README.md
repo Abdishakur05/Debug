@@ -7,9 +7,12 @@ As a first time visitor, i'd like to
 * Enjoy the user experience
 * Be able to look at the reviews to see what others think
 
+### Returing Visitor Goals
+* Check Opening Hours or Location Details
+* Stay Updated on New Menu Items and Promotions
 
 ### Frequent Visitor Goals
-* Announcment on updates on new coffee drinks
+* stay updated on new menu items
 * Sign up to the Newsletter so that I am emailed any major updates
 
 ## Design
@@ -50,6 +53,8 @@ Language used
 4. Git - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 5. Github - GitHub is used to store the projects code after being pushed from Git.
 6. Balsamiq - Used to create wireframes
+7. Canva - Created logo
+8. Chatgpt - Generated images for gallery
 
 ## Testing
 Every page of the project was validated using the W3C Markup Validator and W3C CSS Validator Services to make sure there were no syntax issues.
@@ -72,9 +77,22 @@ Every page of the project was validated using the W3C Markup Validator and W3C C
  * Contact form in bottom of main page to allows users to conact us
  * Testimonails on the main page allows users to view reviews
 
+## Returining Visitor Goals
+As a Returining Visitor, I want to Check Opening Hours or Location Details
+* In footer the opening time is located where it displays days and times of opening and closing
+* In footer location details is located giving the adress
+* Iframe containing map of the location is located just above footer called "Where can you find us"
+
+As a Returning Visitor, I want to Stay Updated on New Menu Items and Promotions
+* Returning visitors will see an option to sign up for our newsletter in the header, ensuring they can receive updates on new items and promotions directly in their inbox.
+* Visitors can find links to our social media accounts in the footer, where they can follow us for real-time updates on menu changes, offers, and events.
+  
+
 ## Frequent User Goals
-As a Frequent User, I want announcments on updates on new new menu items 
+As a Frequent User, I want stay updated on new menu items 
 * Menu updates when new items are added
+* Included a "signup to our newsletter" form in the header which gives users updates
+* Included links to our social media accounts so users can follow for updates.
 
 As a Frequent User, I want to sign up to the Newsletter 
 * On top of the page under Main header their is a modal button which says "Subscribe to our Newsletter"
