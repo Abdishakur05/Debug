@@ -1,6 +1,8 @@
 # The Debug Lounge
 ![Website in different res](https://raw.githubusercontent.com/Abdishakur05/Debug/main/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png "Modern Gaming Cover")
 
+### View Live Project
+* https://abdishakur05.github.io/Debug/
 
 # User Experience (UX)
 
@@ -22,14 +24,18 @@ As a first time visitor, i'd like to
 ## Design
 
 ### Colour Scheme
-* Bisque
+* Bisque 
 * Brown
+Brown and bisque was chose because together they convey a grounded, natural feel.
+Bisque adds a delicate elegance, while brown is linked to reliability and support. When combined, they produce a refined yet approachable appearance.
 
 ### Typography
-* Dancing Script
-* Playfair Display
+* Dancing Script - I used Dancing Script as a font for headers because it has a lively, flowing style that adds a personal, creative touch to the headings. It feels less formal and more friendly, which suits the lounge vibe of the website.
+  The font was chosen to ensure the text and interactive elements are easy to read without being overly harsh or straining to the eyes.
+* Playfair Display - Playfair Display's was used as a font  for text because the website appears more sophisticated and professional because to the gorgeous serif font. Establishing reputation and trust is crucial.
 
 ## Wireframes
+Balsamiq was used in this project to create my wireframes as it gave me a visual sketch on how I wanted my website to look.
 ### Home
 * Large-[Download Wireframe][Large Screen](https://github.com/Abdishakur05/Debug/blob/3d520f49327bdf7e1e99c8e7a8dc5dd76805bf58/home%20page.bmpr)
 * Medium-[Download Wireframe][Medium Screen](https://github.com/Abdishakur05/Debug/blob/83647ab4e33046150d29728f11e7cc9ead42f95d/mediumscreenhome.bmpr)
