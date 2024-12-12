@@ -1,5 +1,6 @@
 # The Debug Lounge
-https://github.com/Abdishakur05/Debug/blob/82c0f5ae627fba3c4fb7354a8e972e0543b9cec7/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png
+![Website in different res](https://raw.githubusercontent.com/Abdishakur05/Debug/main/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png "Modern Gaming Cover")
+
 
 # User Experience (UX)
 
