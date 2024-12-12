@@ -26,6 +26,7 @@ As a first time visitor, i'd like to
 ### Colour Scheme
 * Bisque 
 * Brown
+
 Brown and bisque was chose because together they convey a grounded, natural feel.
 Bisque adds a delicate elegance, while brown is linked to reliability and support. When combined, they produce a refined yet approachable appearance.
 
