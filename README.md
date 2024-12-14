@@ -3,6 +3,30 @@
 
 ### View Live Project
 * https://abdishakur05.github.io/Debug/
+Welcome to my Milestone Project 1 website called The Debug Lounge. This website was created so that coders who enjoy coffee could have a space where they can can code as well as enjoy a cup of coffee.
+The website has 4 sections
+
+1. Home page
+* The home page is the first thing the user sees when it enters into my website. The homepage consists of the nav bar which contains the different links of the pages which when clicked on locates the user on to that page. It contains a welcome message and underneath a button called "Subscribe to our newsletter" which when clicked on allows the user to sign up for our newsletter.
+
+2. About me page
+* This section allows the user to get to know the company. It answers common questions so the users can get a sense of why the business was created.
+
+3. Menu page
+* This page displays all the menu options that the debug lounge sells. It features a collection of coffee choices orgainised into different sections showing the users our different and unique items. Under each item there are different descriptions describing the options perfectly. It contains buttons which locates the user to the order now section.
+
+4. Product page
+* The product page as well showcases the products that we sell to the customers organised as well into sections. It features a collection of items which allows the user to create the coffee at home.It also contains buttons which locates the user to the order now section
+
+5. Gallery page
+* This shows a collection of images of customers enjoying our coffee as well as the space created for coders.
+
+6. Review page
+* This section shows a collection of reviews written by previous customers.
+
+7. Order page
+* This allows the users when selected on an item to order it. It includes forms which allows users to enter their name and email as well as their options and a button which submits the users order. The name,email,number and item form all need to be complete in order to place an order.
+
 
 # User Experience (UX)
 
@@ -34,6 +58,10 @@ Bisque adds a delicate elegance, while brown is linked to reliability and suppor
 * Dancing Script - I used Dancing Script as a font for headers because it has a lively, flowing style that adds a personal, creative touch to the headings. It feels less formal and more friendly, which suits the lounge vibe of the website.
   The font was chosen to ensure the text and interactive elements are easy to read without being overly harsh or straining to the eyes.
 * Playfair Display - Playfair Display's was used as a font  for text because the website appears more sophisticated and professional because to the gorgeous serif font. Establishing reputation and trust is crucial.
+
+### Imagery
+1. Home page images
+* 
 
 ## Wireframes
 Balsamiq was used in this project to create my wireframes as it gave me a visual sketch on how I wanted my website to look.
