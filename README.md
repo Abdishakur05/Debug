@@ -61,7 +61,7 @@ Bisque adds a delicate elegance, while brown is linked to reliability and suppor
 
 ### Imagery
 1. Home page images
-* [Home Page Logo][https://github.com/Abdishakur05/Debug/blob/72c8571932008759af525fc895518d4acc260837/Beige%20Brown%20Creative%20Circle%20Coffe%20Shop%20Logo.png]
+* [Home Page Logo][[https://github.com](https://raw.githubusercontent.com/Abdishakur05/Debug/blob/72c8571932008759af525fc895518d4acc260837/Beige%20Brown%20Creative%20Circle%20Coffe%20Shop%20Logo.png)
 
 ## Wireframes
 Balsamiq was used in this project to create my wireframes as it gave me a visual sketch on how I wanted my website to look.
