@@ -82,11 +82,18 @@ The header contains the title of the website "The Debug Lounge". Beside it conta
 ![Header Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/561c7c0ef45d02c7f6c0959829f945d7e1e8214c/headercapture.PNG)
 
 ### Footer
-The footer includes information like how to contact us. It includes the social links which when clicked locates the users to our social media sites. Our location is stated in the footer so the user can navigate where we our located. Opening and Closing times is stated in the footer. The footer folds when the size of the screen decreases which keeps its clean design 
-![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073
+The footer includes information like how to contact us. It includes the social links to our social media sites. Our location is stated in the footer so the user can navigate where we our located. Opening and Closing times is stated in the footer. The footer folds when the size of the screen decreases which keeps its clean design 
+![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073)
 
 
 ### Newsletter
+The newsletter button is contained in the heading section of the website. When user clicks on the button it contains 2 forms "Name" and "Email" which gives the user an easy way to stay connected with new updates.
+![Newsletter Screenshot](https://github.com/Abdishakur05/Debug/raw/959330b0aa78d00beb18fb924261740d812d9bc3/newslettercap.PNG)
+
+## Interactive elements
+### Footer socialmedia links
+Footer contains social media links which when clicked on located our users to one of our social medias. 
+![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073)
 
 
 
