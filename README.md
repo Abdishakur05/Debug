@@ -78,12 +78,13 @@ Balsamiq was used in this project to create my wireframes as it gave me a visual
 ### Responsitivity on all devices ![View](https://raw.githubusercontent.com/Abdishakur05/Debug/main/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png "Modern Gaming Cover")
 
 ### Header 
-The header contains the title of the website "The Debug Lounge". Beside it contains each of the links of the page which when clicked upon locates the user to the section of the site. I kept the nav bar simple so it can be user friendly. When the screen is decreased the navbar turns into a sidebar. This doesnt not only keep the clean and simple look of the nav bar but makes it easier to navigate making it user friendly.
+The header contains the title of the website "The Debug Lounge". Beside it contains each of the links of the page. I kept the nav bar simple so it can be user friendly. When the screen is decreased the navbar turns into a sidebar. This doesnt not only keep the clean and simple look of the nav bar but makes it easier to navigate making it user friendly.
 ![Header Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/561c7c0ef45d02c7f6c0959829f945d7e1e8214c/headercapture.PNG)
 
 ### Footer
 The footer includes information like how to contact us. It includes the social links to our social media sites. Our location is stated in the footer so the user can navigate where we our located. Opening and Closing times is stated in the footer. The footer folds when the size of the screen decreases which keeps its clean design 
-![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073)
+![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073fdd5b16/footercapture.PNG)
+
 
 
 ### Newsletter
@@ -93,9 +94,16 @@ The newsletter button is contained in the heading section of the website. When u
 ## Interactive elements
 ### Footer socialmedia links
 Footer contains social media links which when clicked on located our users to one of our social medias. 
-![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073)
+![Footer Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/62d47160c101401837cb8e5059ab55073fdd5b16/footercapture.PNG)
 
 
+### Shop Now Button
+In the menu and product sections of the site they both contain the shop now button. This locates the user to the order page.
+![Book Feature Screenshot](https://github.com/Abdishakur05/Debug/raw/777030487b6165089a6db792c56fb30fb85ac0b3/bookcap.PNG)
+
+### Navigation
+Navigation has a link to each of the pages in the site. When clicked upon it locates the user to its designated section.
+![Header Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/561c7c0ef45d02c7f6c0959829f945d7e1e8214c/headercapture.PNG)
 
 ## Languages Used
 Language used
