@@ -75,8 +75,11 @@ Balsamiq was used in this project to create my wireframes as it gave me a visual
 
 
 ## Features
-* Responsitivity on all devices
-* Navigation bar
+### Responsitivity on all devices ![View](https://raw.githubusercontent.com/Abdishakur05/Debug/main/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png "Modern Gaming Cover")
+
+### Header 
+All of the pages in the website contains a header and a footer
+Navigation bar
 * Newsletter
 
 
