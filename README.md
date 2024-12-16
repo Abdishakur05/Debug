@@ -112,6 +112,8 @@ When order is submited the user is located to success page
 ![Order Feature Screenshot](https://github.com/Abdishakur05/Debug/raw/c27d8af14c2c3be5e860d51726091b2503ed042c/ordercap.PNG)
 
 ### Iframe
+The map is located at the bottom of the home page just above the footer. It displays the location of the business which allows the users to plan their travels.
+![Iframe Feature Screenshot](https://github.com/Abdishakur05/Debug/raw/f40becde13274328f9ace75504d93d5b72569267/iframe.PNG)
 
 
 ## Languages Used
