@@ -105,6 +105,15 @@ In the menu and product sections of the site they both contain the shop now butt
 Navigation has a link to each of the pages in the site. When clicked upon it locates the user to its designated section.
 ![Header Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/561c7c0ef45d02c7f6c0959829f945d7e1e8214c/headercapture.PNG)
 
+### Submit Order
+The order form contains a submit button. Its interactive as you
+can select the amount of items you are ordering  on the item form. It requires the users name, email and number in order for the submit button to accept the order.
+When order is submited the user is located to success page
+![Order Feature Screenshot](https://github.com/Abdishakur05/Debug/raw/c27d8af14c2c3be5e860d51726091b2503ed042c/ordercap.PNG)
+
+### Iframe
+
+
 ## Languages Used
 Language used
 * Html
