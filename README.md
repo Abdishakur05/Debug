@@ -78,6 +78,9 @@ Balsamiq was used in this project to create my wireframes as it gave me a visual
 ### Responsitivity on all devices ![View](https://raw.githubusercontent.com/Abdishakur05/Debug/main/Modern%20Gaming%20Cover%20YouTube%20Channel%20Art.png "Modern Gaming Cover")
 
 ### Header 
+The header contains the title of the website "The Debug Lounge". Beside it contains each of the links of the page which when clicked upon locates the user to the section of the site. I kept the nav bar simple so it can be user friendly. When the screen is decreased the navbar turns into a sidebar. This doesnt not only keep the clean and simple look of the nav bar but makes it easier to navigate making it user friendly.
+![Header Screenshot](https://raw.githubusercontent.com/Abdishakur05/Debug/561c7c0ef45d02c7f6c0959829f945d7e1e8214c/headercapture.PNG)
+
 All of the pages in the website contains a header and a footer
 Navigation bar
 * Newsletter
